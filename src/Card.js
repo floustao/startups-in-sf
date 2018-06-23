@@ -1,16 +1,14 @@
 import React from 'react';
 
-const Card = (props) => {
+const Card = ({ id, image, style, company }) => {
   return (
-    <div className="grid">
-      <div className="card card-image">
-        <img src={props.image} alt=""/>
-        <div className="card-text">
-          <h2>Zeplin</h2>
-        </div>
+    <div className="card">
+      <img className="card-image" src={image} alt=""/>
+      <div className="card-text">
+        <p>{company}</p>
       </div>
     </div>
-    )
+  )
 }
 
 export default Card;

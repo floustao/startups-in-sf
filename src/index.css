@@ -5,24 +5,18 @@ body {
 
 .grid {
   display: flex;
+  flex-wrap: wrap;
 }
+
 .card {
   background: #fff;
   border-radius: 2px;
-/*   display: inline-block; */
-  height: 200px;
   margin: 30px;
-  position: relative;
-  width: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  position: relative;
 }
 
 .card-text {
-  position: absolute;
-  color: white;
+  color: black;
+  text-transform: capitalize;
 }
 
 .card-image {
