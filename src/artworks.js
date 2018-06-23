@@ -72,4 +72,17 @@ export const artworks = [
     style: 'painting',
     company: 'initialized capital'
   },
+  {
+    id: 13,
+    image: "http://res.cloudinary.com/keven/image/upload/c_fill,g_face,h_200,w_200/image-digital_aospdv",
+    style: 'painting',
+    company: 'radius'
+  },
+  {
+    id: 14,
+    image: "http://res.cloudinary.com/keven/image/upload/c_fill,g_face,h_200,w_200/image-paint_ggbfdg",
+    style: 'painting',
+    company: 'heroes'
+  },
 ]
+
