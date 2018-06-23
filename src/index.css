@@ -1,6 +1,7 @@
 body {
-  background: #fff;
+  background: linear-gradient(5deg, rgb(63, 41, 41), rgb(255, 255, 255));
   text-align: center;
+  height: 300vh;
 }
 
 .grid {
@@ -9,7 +10,7 @@ body {
 }
 
 .card {
-  background: #fff;
+  background: none;
   border-radius: 2px;
   margin: 30px;
 }
