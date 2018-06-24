@@ -1,0 +1,46 @@
+#home-title {
+  padding: 30px;
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+}
+
+.banner-image {
+  width: 100%;
+  filter: grayscale(100%);
+  transition: all 0.5s;
+}
+
+
+.banner-button {
+  background-color: white;
+  border: solid 4px black;
+  padding: 20px;
+  font-size: 16px;
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.8s;
+}
+
+.tagline {
+  font-weight: 100;
+}
+
+/*hover effect on banner picture*/
+.banner-image:hover {
+  filter: none;
+}
+.banner-button:hover + .banner-image {
+  filter: none;
+}
+
+.banner-button:hover {
+  color: white;
+  background-color: black;
+}
+

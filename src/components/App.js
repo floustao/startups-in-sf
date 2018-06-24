@@ -3,6 +3,8 @@ import SearchBox from './SearchBox';
 import CardList from './CardList';
 import Loader from './Loader';
 import Scroll from './Scroll';
+import Navbar from './Navbar';
+import '../styles/dashboard.css';
 
 class App extends React.Component {
   constructor() {
@@ -41,7 +43,10 @@ class App extends React.Component {
     } else {
       return ( // return json from server
         <div>
-          <h1>Select your Company</h1>
+          <div className="dashboard-top-row">
+            <h1 className="dashboard-title">Select your Company</h1>
+            <Navbar />
+          </div>
           <SearchBox searchChange={this.handleSearch} />
           <Scroll>
             <CardList artworks={filteredArtworks} />

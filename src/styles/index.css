@@ -1,5 +1,5 @@
 html {
-  background: linear-gradient(5deg, rgb(63, 41, 41), rgb(255, 255, 255));
+  background: linear-gradient(100deg, rgb(63, 41, 41), rgb(255, 255, 255));
   text-align: center;
   height: 100%;
 }
@@ -7,18 +7,15 @@ html {
 body {
   font-family: 'Kaushan Script', cursive;
 }
-.heading {
-  font-weight: 700;
-}
-.subheading {
-  font-weight: 300;
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family: 'Kaushan Script', cursive;
 }
 
-input {
-  border: solid 4px black;
-  padding: 20px;
-  font-size: 14px;
-  margin-bottom: 20px;
+ul {
+  padding: 0;
 }
 
 .grid {
@@ -53,4 +50,12 @@ input {
 
 ::-webkit-scrollbar {
     display: none;
+}
+
+.lato {
+  font-family: 'Lato', sans-serif;
+}
+
+.kaushan {
+  font-family: 'Kaushan Script', cursive;
 }
