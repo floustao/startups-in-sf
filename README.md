@@ -6,4 +6,12 @@
 npm start
 json-server --watch db.json
 
-![gif](SelectArt.gif)
+![gif](cards.gif)
+
+<br>
+
+![gif](toggle-btn.gif)
+
+<br>
+
+![gif](home.gif)
