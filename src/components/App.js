@@ -25,11 +25,12 @@ class App extends React.Component {
 
 
   render() {
-    const filteredArtworks = this.state.artworks.filter(artwork => {
-      return artwork.company.toLowerCase().includes(this.state.searchfield.toLowerCase());
+    const { artworks, searchfield } = this.state;
+    const filteredArtworks = artworks.filter(artwork => {
+      return artwork.company.toLowerCase().includes(searchfield.toLowerCase());
     })
 
-    if (this.state.artworks.length === 0) { // in case server is down or too long
+    if (!artworks.length) { // in case server is down or too long
       return (
         <div>
           <h1>Select your Company</h1>
@@ -42,7 +43,9 @@ class App extends React.Component {
         <div>
           <h1>Select your Company</h1>
           <SearchBox searchChange={this.handleSearch} />
-          <CardList artworks={filteredArtworks} />
+          <Scroll>
+            <CardList artworks={filteredArtworks} />
+          </Scroll>
         </div>
       );
     }

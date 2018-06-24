@@ -74,7 +74,7 @@
   },
   {
     "id": 13,
-    "image": "http://res.cloudinary.com/keven/image/upload/c_fill,g_face,h_200,w_200/image-digital_aospdv",
+    "image": "http://res.cloudinary.com/keven/image/upload/c_fill,g_face,h_200,w_200/v1499941677/yjtwk0osrh6zhfnw8smk.jpg",
     "style": "painting",
     "company": "radius"
   },
@@ -83,7 +83,50 @@
     "image": "http://res.cloudinary.com/keven/image/upload/c_fill,g_face,h_200,w_200/image-paint_ggbfdg",
     "style": "painting",
     "company": "heroes"
+  },
+  {
+    "id": 15,
+    "image": "http://res.cloudinary.com/keven/image/upload/c_fill,g_face,h_200,w_200/v1499942864/utrnukq169rb1ufxltod.jpg",
+    "style": "painting",
+    "company": "initialized capital"
+  },
+  {
+    "id": 16,
+    "image": "http://res.cloudinary.com/keven/image/upload/c_fill,g_face,h_200,w_200/v1499942769/lrj4qfxubn9ze1wnpm4k.jpg",
+    "style": "painting",
+    "company": "radius"
+  },
+  {
+    "id": 17,
+    "image": "http://res.cloudinary.com/keven/image/upload/c_fill,g_face,h_200,w_200/image-digital_aospdv",
+    "style": "painting",
+    "company": "heroes"
+  },
+  {
+    "id": 18,
+    "image": "http://res.cloudinary.com/keven/image/upload/c_fill,g_face,h_200,w_200/v1499941610/evvinyudqkjfu6oqk5hx.jpg",
+    "style": "sculpting",
+    "company": "wear spartan"
+  },
+  {
+    "id": 19,
+    "image": "http://res.cloudinary.com/keven/image/upload/c_fill,g_face,h_200,w_200/v1499942572/e3wrqoosadagccc68cnv.jpg",
+    "style": "painting",
+    "company": "lyft"
+  },
+  {
+    "id": 20,
+    "image": "http://res.cloudinary.com/keven/image/upload/c_fill,g_face,h_200,w_200/v1499942250/vevuksarwvzufkydkcoo.jpg",
+    "style": "painting",
+    "company": "amazon"
+  },
+  {
+    "id": 21,
+    "image": "http://res.cloudinary.com/keven/image/upload/c_fill,g_face,h_200,w_200/v1499943695/def55x0tiohbrkhv88ar.jpg",
+    "style": "painting",
+    "company": "amazon"
   }
+
   ],
   "comments": [
     {
