@@ -4,6 +4,16 @@ html {
   height: 100%;
 }
 
+body {
+  font-family: 'Kaushan Script', cursive;
+}
+.heading {
+  font-weight: 700;
+}
+.subheading {
+  font-weight: 300;
+}
+
 input {
   border: solid 4px black;
   padding: 20px;
@@ -39,5 +49,8 @@ input {
 .scroll-window {
   overflow-y: scroll;
   height: 65vh;
-  border-top: solid 2px black;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
