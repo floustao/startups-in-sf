@@ -4,6 +4,12 @@ body {
   height: 300vh;
 }
 
+input {
+  border: solid 4px black;
+  padding: 20px;
+  font-size: 14px;
+}
+
 .grid {
   display: flex;
   flex-wrap: wrap;
